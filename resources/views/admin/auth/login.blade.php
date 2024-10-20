@@ -1,5 +1,9 @@
 @extends('admin.layouts.auth-master')
 
+@section('title')
+    {{ __('Log in') }}
+@endsection
+
 @section('content')
     <div class="text-center">
         <h5 class="mb-0">Welcome Back !</h5>
